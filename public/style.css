@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#video-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+video{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    padding: 5px;
+}
+.main {
+    min-height: 100vh; 
+    display: flex;
+}
+.main__left {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    max-width: 85vw;
+}
+.main__right {
+    flex: 0.2
+}
+
+.main__videos {
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.95;
+}
+.main__controls {
+    color: #D2D2D2;
+    display: flex;
+    background-color: #1C1E20;
+    justify-content: space-between;
+    padding: 5px;
+    flex: 0.05;
+}
+
+.main__controls__block {
+    align-items: center;
+    display: flex;
+}
+.main__controls__button > span {
+    padding-top: 5px;
+}
+.main__controls__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+.main__controls__button:hover {
+    background-color: #343434;
+    border-radius: 5px;
+}
+
+.main__controls__button i {
+    font-size: 24px;
+}
+.main__controls__buttonsNew {
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    min-width: 80px;
+    border-radius: 5px;
+    height: 60%;
+    margin-right: 10px;
+    transition: all 250ms ease-in-out;
+}
+  
+.main__controls__buttonsNew:hover {
+    background-color: #194d40;
+    color: #d2d2d2;
+}
+
+.main__right {
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #242324;
+  border-left: 1px solid #3d3d42;
+}
+
+
+.main__header {
+  text-align: center;
+  flex: 0.05;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.main__chat_window {
+  width: 100%;
+  flex-grow: 1;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.messages{
+    padding-inline-start: 10px;
+    color: white;
+    list-style: none;
+}
+
+.main__message_container {
+    padding: 22px 12px;
+    display: flex;
+    width: 100%;
+}
+
+.main__message_container input {
+    flex-grow: 1;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #f0c8c8;
+
+}
+.main__messageContainer input:focus {
+    outline: none;
+}
+.newMeeting {
+    color: #e9ec33;
+    text-decoration: none !important;
+}
+  
+.newMeeting:hover {
+    color: #ffffff !important;
+}
+
+.unmute, .stop {
+    color: #b91b13;
+}
