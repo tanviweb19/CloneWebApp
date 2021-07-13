@@ -36,7 +36,7 @@ NOTE: If you are getting the error: 'reference: io io is not defined'
 
 then in room.ejs file change your script code to 
 
-'https://yourappname.herokuapp.com/socket.io/socket.io.js"
+'https://yourappname.herokuapp.com/socket.io/socket.io.jS'
 
 SOME IDEAS FOR ENHANCEMENTS IF YOU WANT TO TICKER:
 
