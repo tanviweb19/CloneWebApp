@@ -1,6 +1,6 @@
 WHAT DOES THIS APP DO:
 
-It creates a meeting URL for you and allows multiple people to join that meeting.
+It creates a unique ROOM_ID for you and allows multiple people to join that meeting.
 
 It does peer to peer communication for audio/video.
 
