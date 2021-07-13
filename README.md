@@ -9,16 +9,16 @@ For demo and to learn about APIs, you can visit here https://webrtc.github.io/sa
 MADE CLONE APP USING DEPENDENCIES LIKE:
 
 socket.io,
-express
-ejs
-uuid
-nodemon
+express,
+ejs,
+uuid,
+nodemon,
 peerjs library
 
 HOW TO RUN THE APP:
 
 install all the commands in the vsc terminal,
-saved the files then go to default browser and run http://localhost:3030 ( to check the working of app locally)
+saved the files then go to default browser and run http://localhost:3030 ( to check the working of app locally),
 you can also deploy the app to get connected with other people ( I have deployed the app to Heroku)
 
 NOTE: "If you are getting the error: 'reference: io io is not defined' 
@@ -27,8 +27,8 @@ then in room.ejs file change your script code to
 
 SOME IDEAS FOR ENHANCEMENTS IF YOU WANT TO TICKER:
 
-how to make this app working for 15 people.
-add screen sharing option
-lock meeting option
+how to make this app working for 15 people,
+add screen sharing option,
+lock meeting option,
 recordings which will be available after the recording
 
